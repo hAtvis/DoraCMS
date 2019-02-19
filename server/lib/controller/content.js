@@ -365,8 +365,8 @@ class Content {
                     likeUserIds: [],
                     translate: fields.translate,
                     twiterAuthor: fields.twiterAuthor,
-                    type: fields.type,
-                    postValue: fields.postValue
+                    postValue: fields.postValue,
+                    versions:fields.versions
                 }
 
                 if (role === 'user') {
@@ -385,6 +385,7 @@ class Content {
                     groupObj.uAuthor = req.session.user._id;
                     groupObj.state = false;
                     groupObj.author = '';
+                    groupObj.versions = Array(groupObj.versions)
                 }
 
                 const newContent = new ContentModel(groupObj);
@@ -435,8 +436,8 @@ class Content {
                 comments: fields.comments,
                 translate: fields.translate,
                 twiterAuthor: fields.twiterAuthor,
-                type: fields.type,
-                postValue: fields.postValue
+                postValue: fields.postValue,
+                versions:fields.versions,
             }
 
             if (role === 'user' || fields.from === '3') {

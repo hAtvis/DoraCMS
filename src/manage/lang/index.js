@@ -11,18 +11,19 @@ import jaLocale from './ja'
 Vue.use(VueI18n)
 
 const messages = {
-  en: {
-    ...enLocale,
-    ...elementEnLocale
-  },
+  // en: {
+  //   ...enLocale,
+  //   ...elementEnLocale
+  // },
   zh: {
     ...zhLocale,
     ...elementZhLocale
-  },
-  ja: {
-    ...jaLocale,
-    ...elementJaLocale
   }
+  // ,
+  // ja: {
+  //   ...jaLocale,
+  //   ...elementJaLocale
+  // }
 }
 
 const i18n = new VueI18n({

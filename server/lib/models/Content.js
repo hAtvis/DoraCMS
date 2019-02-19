@@ -24,6 +24,13 @@ var ContentSchema = new Schema({
     sortPath: String, //存储所有父节点结构
     tags: [{ type: String, ref: 'ContentTag' }], // 标签
     keywords: String,
+    versions:[{
+       version:String,
+        lang:String,
+        updateTime:String,
+        fileSize:String,
+        downloadUrl:String
+    }],
     sImg: { type: String, default: "/upload/images/defaultImg.jpg" }, // 文章小图
     discription: String,
     date: { type: Date, default: Date.now },
