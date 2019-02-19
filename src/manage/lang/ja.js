@@ -107,7 +107,6 @@ export default {
     updateAds: "広告の更新",
     addAds: "新しい広告",
     addAdsFunction: "広告の新",
-    addAds: "新しい広告",
     sysTemMain: "システム・ホームページ",
     getSysTermBaseInfo: "サイト情報取得",
     templateManage: "テンプレート編集",
@@ -395,7 +394,6 @@ export default {
     type: "広告タイプ",
     typeText: "文字",
     typePic: "画像",
-    enable: "表示",
     getCode: "コードを取得する",
     dis: "広告説明",
     textLink: "テキストリンク",
@@ -465,7 +463,6 @@ export default {
     email: "メール",
     comments: "備考",
     date: "アカウント作成時間",
-    email: "メール",
     integral: "ポイント"
   },
   systemNotify: {

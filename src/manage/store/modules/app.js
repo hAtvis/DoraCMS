@@ -230,8 +230,8 @@ const app = {
           from: '1',
           postValue: 3,
           translate: '',
-          twiterAuthor: ''
-
+          twiterAuthor: '',
+          versions:[]
         }
       },
       contentList: {
